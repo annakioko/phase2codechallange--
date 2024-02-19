@@ -1,0 +1,42 @@
+Flat Iron Bank
+
+#Overview
+Flat Iron Bank is a web application aimed at providing users with money managing services by pro
+viding an easy to use application where they can add view and search their transactions. It allows users to categorize their transactions into different categroies seach as income, fashion and food.
+
+#Project Structure
+
+src/
+   components/
+       adddata/
+            AddDataForm.jsx: Component for adding new data entries.
+            AddDataButton.jsx: Button component to trigger the addition of new data.
+      search/
+            SearchBar.jsx: Component for searching through existing data.
+            SearchResults.jsx: Component to display search results.
+      container/
+            DataTableContainer.jsx: Container component to manage data retrieval and pass it to the table component.
+       table/
+            DataTable.jsx: Component to display data in a tabular format.
+
+     #Features
+Add Data: Users can add new data entries using a form.
+Search Data: Users can search through existing data using a search bar.
+Display Data: Data is displayed in a tabular format for easy viewing and manipulation.
+
+
+   #Usage
+Clone the repository to your local machine.
+Navigate to the project directory.
+Install dependencies by running npm install.
+Start the development server by running npm start.
+Open your web browser and navigate to http://localhost:3000 to access the application.
+
+
+    #Technologies Used
+React
+JavaScript (ES6+)
+HTML/CSS
+Contributors
+[Anna Kioko]
+
